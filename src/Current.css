@@ -1,0 +1,42 @@
+.Current h1 {
+  margin: 0 0 -70px 0;
+  font-weight: 700;
+  font-size: 100px;
+  background: -webkit-linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 0)
+  );
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.Current h2 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Current h3 {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.Current {
+  max-width: 100%;
+  margin: 10px;
+  padding: 50px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(160deg, #61b1fe 0%, #aedefe 48%, #82e0fe 100%);
+}
+
+.Current .current-weather {
+  margin: 0 0 20px 0;
+}
+
+.Current .partly-cloudy-lg {
+  margin: -40px;
+}
