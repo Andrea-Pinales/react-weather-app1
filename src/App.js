@@ -1,13 +1,16 @@
 import React from "react";
+import Current from "./Current";
+import Search from "./Search";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>Weather App</h1>
+        <Search />
+        <Current />
         <footer>
-          This project was coded by Andrea Pinales and it is
+          This project was coded by Andrea Pinales and it is {""}
           <a
             href="https://github.com/Andrea-Pinales/react-weather-app"
             target="_blank"
