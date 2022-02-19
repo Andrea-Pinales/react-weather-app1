@@ -4,7 +4,6 @@ import Forecast from "./Forecast";
 import "./Current.css";
 
 export default function Current(props) {
-  const [temperature, setTemperature] = useState(null);
   const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
     console.log(response.data);
