@@ -1,23 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Search.css";
 
 export default function Search(props) {
-  const [city, setCity] = useState(props.defaultCity);
-  function handleCityChange(event) {
-    setCity(event.target.value);
-  }
-
   return (
     <div className="Search">
       <div className="row search-form">
         <div className="col-sm-6 column">
           <i className="fas fa-search"></i>
-          <input
-            type="search"
-            className="Input"
-            placeholder="Enter a city"
-            onChange={handleCityChange}
-          />
+          <input type="search" className="Input" placeholder="Enter a city" />
         </div>
 
         <div className="col column">
